@@ -1,9 +1,11 @@
+import Navbar from './components/Navbar/index';
 import './assets/style/custom.scss';
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <h1>Catalog</h1>
+    <Navbar/>
   );
 }
 

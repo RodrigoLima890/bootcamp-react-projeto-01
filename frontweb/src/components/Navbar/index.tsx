@@ -1,8 +1,9 @@
 import "./style.css";
-import "bootstrap/js/src/collapse.js";
+import "bootstrap/js/dist/collapse"
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
         <a href="link" className="nav-logo-text">
           <h4>Catalog</h4>
@@ -17,7 +18,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggle-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="catalog-navbar">
           <ul className="navbar-nav offset-md-2 menu-main">

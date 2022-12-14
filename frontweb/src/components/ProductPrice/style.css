@@ -1,0 +1,13 @@
+.price-container{
+    display: flex;
+}
+.price-container span{
+    color: #9E9E9E;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.price-container h3{
+    font-size: 32px;
+    color: #407BFF;
+    margin-left: 9px;
+}
